@@ -1,0 +1,19 @@
+{
+    "modules": [
+        "lib.fireh_runner.modules.setup",
+        "lib.fireh_runner.modules.python",
+        "lib.fireh_runner.modules.virtualenv",
+        "lib.fireh_runner.modules.waf",
+        "lib.fireh_runner.modules.django"
+    ],
+    "setup_modules": [
+        "lib.fireh_runner.setup_modules.python",
+        "lib.fireh_runner.setup_modules.npm",
+        "lib.fireh_runner.setup_modules.pybuildtool"
+    ],
+    "python_version": "3.8",
+    "waf_version": "2.0.21",
+
+    "default_project": "suara_web",
+    "default_variant": "development"
+}

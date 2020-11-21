@@ -1,0 +1,43 @@
+/etc/runner.json
+/lib/uwsgi-plugins/
+/public/
+/tmp/
+/var/
+
+
+## suara_web
+
+/suara_web/db.sqlite3
+
+
+## git
+
+*.orig
+
+
+## nodejs
+
+/node_modules/
+/package.json
+
+
+## python
+
+/.virtualenv/
+/python_modules
+/requirements.txt
+*.pyc
+
+
+## vim
+
+*.swo
+*.swp
+
+
+## pybuildtool
+
+/.BUILD/
+/.lock-waf_*
+/build.yml
+/wscript
